@@ -30,7 +30,7 @@ cd ../../../
 
 # Create build package
 
-dpkg-deb --root-owner-group -b deb/ zen-browser.deb
+dpkg-deb --root-owner-group -b deb/ zen.linux-x86_64.deb
 
 
 
