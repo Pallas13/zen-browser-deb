@@ -10,7 +10,7 @@ This not is a version official of Zen Browser, is just tar.xz version in deb pac
 
 # To-do 
 
-[ ] Add continuo release using Github Actions for new releases of Zen Browser.
-[ ] Add multilingue for Comment variable of .desktop file. 
+- Add continuo release using Github Actions for new releases of Zen Browser.
+- Add multilingue for Comment variable of .desktop file. 
 
 
