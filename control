@@ -1,0 +1,7 @@
+Package: $package
+Version: $version
+Architecture: amd64
+Maintainer: Pallas13 <edsondasilvaguedes0@gmail.com>
+Priority: optional
+Homepage: https://github.com/Pallas13/zen-browser-deb
+Description: Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data. Zen Browser in deb package.
