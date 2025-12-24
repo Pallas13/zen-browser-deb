@@ -37,5 +37,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           VERSION=$(cat zen/application.ini | grep Version= | head -1 | cut -f2 -d"=")
-          gh release create $VERSION --title "Release Build - $VERSION" --notes "Deb package of Zen Browser $VERSION" zen.linux-x86_64.deb --prerelease --draft
+          gh release create $VERSION --title "Release Build - $VERSION" --notes "Deb package of Zen Browser version [$VERSION](https://github.com/zen-browser/desktop/releases/tag/$VERSION)\n**Full Changelog for this repo**: https://github.com/Pallas13/zen-browser-deb/commits/$VERSION" zen.linux-x86_64.deb --prerelease
              
